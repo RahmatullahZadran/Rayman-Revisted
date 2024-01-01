@@ -39,5 +39,18 @@ body{
     position: relative;
     top: 150px;
     left: 580px;
-    animation: block 0.5s infinite linear;
+    animation: block 1.3s infinite linear;
+}
+
+@keyframes obstacle{
+    0%{left: 680px;}
+    100%{left: -680px;}
+}
+
+#ground{
+    width: 700px;
+    height: 50px;
+    background: yellow;
+    position: absolute;
+    top: 300px;
 }
