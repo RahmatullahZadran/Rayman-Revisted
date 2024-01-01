@@ -22,7 +22,7 @@ var lose = setInterval(function(){
 
         if (blockLeft < 20 && blockLeft > 0 && chickenTop >= 130) {
             obstacle.style.animation = "none";
-            
+            obstacle.style.display = "none";
             document.getElementById("score").innerHTML = "Score: " + counter;
         }
 },10);
