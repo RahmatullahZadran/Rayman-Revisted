@@ -42,7 +42,7 @@ body{
     animation: block 1.3s infinite linear;
 }
 
-@keyframes obstacle{
+@keyframes block{
     0%{left: 680px;}
     100%{left: -680px;}
 }
